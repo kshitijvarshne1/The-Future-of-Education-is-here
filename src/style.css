@@ -14,31 +14,34 @@
 
 .logo img {
   width: 50px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 50%;
 }
 .nav-list li {
   list-style: none;
   padding: 20px;
 }
-.nav-list li a:hover {
+.nav-list li a {
   text-decoration: none;
-  color: yellow;
+  color: white;
 }
 .nav-list {
   width: 50%;
-  background-color: black;
   display: flex;
   align-items: center;
 }
 .rightnav {
   width: 50%;
   text-align: right;
-  background-color: teal;
 }
 #search {
   padding: 5px;
   font-size: 17px;
   border: 2px solid rgb(128, 77, 0);
   border-radius: 10px;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../public/chicago.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
 }
