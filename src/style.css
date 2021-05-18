@@ -4,6 +4,12 @@
 }
 .navbar {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color: rgb(20, 25, 39);
 }
 .logo {
   width: 20%;
@@ -37,7 +43,6 @@
   border: black;
 }
 #search {
-  margin-top: 15px;
   padding: 5px;
   font-size: 17px;
   border: 2px solid rgb(128, 77, 0);
@@ -74,7 +79,7 @@
 }
 .secondhalf img {
   border: 1px solid black;
-  border-radius: 100px;
+  border-radius: 10px;
   width: 100%;
   margin: auto;
 }
