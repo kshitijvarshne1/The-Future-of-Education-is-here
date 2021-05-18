@@ -17,9 +17,19 @@
   border: 2px solid black;
   border-radius: 50%;
 }
+.nav-list li {
+  list-style: none;
+  padding: 20px;
+}
+.nav-list li a:hover {
+  text-decoration: none;
+  color: yellow;
+}
 .nav-list {
   width: 50%;
-  background-color: yellow;
+  background-color: black;
+  display: flex;
+  align-items: center;
 }
 .rightnav {
   width: 50%;
