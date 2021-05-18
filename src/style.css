@@ -45,3 +45,10 @@
   background-size: cover;
   background-blend-mode: darken;
 }
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
