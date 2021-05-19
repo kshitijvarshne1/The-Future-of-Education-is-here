@@ -1,4 +1,5 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Volkhov:ital@1&display=swap") * {
   margin: 0;
   padding: 0;
 }
@@ -102,5 +103,23 @@
   padding: 6px 10px;
   vertical-align: middle;
 }
+
 .secRight {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+  font-family: "Volkhov", serif;
+}
+.sectionSubTag {
+  padding: 10px;
+}
+.sectionleft {
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  max-width: 90%;
+  font-family: "Volkhov", serif;
 }
