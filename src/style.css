@@ -9,7 +9,7 @@
   position: sticky;
   top: 0;
   cursor: pointer;
-  background-color: rgb(20, 25, 39);
+  background-color: rgb(17, 35, 70);
 }
 .logo {
   width: 20%;
@@ -82,4 +82,19 @@
   border-radius: 10px;
   width: 100%;
   margin: auto;
+}
+.text-big {
+  font-size: 30px;
+}
+.text-small {
+  font-size: 20px;
+}
+.btn {
+  padding: 5px 5px;
+  margin: 7px 0px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background: none;
+  color: white;
+  cursor: pointer;
 }
