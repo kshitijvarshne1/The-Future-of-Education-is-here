@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -164,4 +167,18 @@
 .bc {
   background-color: rgba(0, 0, 0, 0.7);
   height: 55px;
+}
+
+@media only screen and (max-width: 866px) {
+  .nav-list {
+    margin-top: 300px;
+    flex-direction: column;
+    height: 900px;
+  }
+  .box-main {
+    margin-top: 100px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
 }
