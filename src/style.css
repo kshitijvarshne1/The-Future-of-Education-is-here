@@ -131,17 +131,25 @@
 }
 .contact {
   background-color: aliceblue;
-  height: 34px;
+  height: 454px;
 }
 .text-center {
   text-align: center;
+  padding: 30px;
+  font-size: 30px;
 }
 .form {
   max-width: 344px;
   margin: auto;
 }
-.form input {
+.form-input {
+  margin-top: 15px;
   width: 100%;
-  border: 2px solid green;
+  border: 2px solid black;
   border-radius: 6px;
+  padding: 2px;
+}
+.btnDark{
+  color: black;
+  border black;
 }
