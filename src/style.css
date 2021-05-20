@@ -131,7 +131,7 @@
 }
 .contact {
   background-color: aliceblue;
-  height: 454px;
+  height: 504px;
 }
 .text-center {
   text-align: center;
@@ -139,8 +139,8 @@
   font-size: 30px;
 }
 .form {
-  max-width: 344px;
-  margin: auto;
+  max-width: 700px;
+  margin: 25px auto;
 }
 .form-input {
   margin-top: 15px;
@@ -148,8 +148,8 @@
   border: 2px solid black;
   border-radius: 6px;
   padding: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.btnDark{
+.btnDark {
   color: black;
-  border black;
 }
